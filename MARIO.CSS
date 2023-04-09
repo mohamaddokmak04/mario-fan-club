@@ -1,0 +1,115 @@
+*{
+box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(246, 246, 254);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background-color:#4a4a4a;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-right: 20px;
+
+
+}
+nav a{
+color: black;
+font-size: 20px;
+text-decoration: none;
+}
+nav a:hover{
+    color: antiquewhite;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image:url("1.webp");
+height: 850px;
+background-size:cover;
+text-align: center;
+}
+.one h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+}
+.one button{
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+}
+footer{
+  
+    padding: 15px 20px ;
+    text-align: center;
+    background-color: #666666;}
+    footer p{
+        font-size: 14px;
+        color: whitesmoke;
+    }
+    .two{
+        text-align: center;
+        padding: 50px 20px;
+
+    }
+    .two p{
+        margin-bottom: 100px;
+        line-height: 1.5;
+        font-size: 25px;
+
+    }
+.two h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.three {
+text-align: center;
+padding: 50px 20px;
+
+}
+.three h2{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.three p{
+    margin-bottom: 50px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.four{
+text-align: center;
+padding: 50px 20px;
+
+}
+.four h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.five{
+    display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+}
+.five img{
+    
+    width: 100%;
+   height: auto;
+    border-radius: 5px;
+}
